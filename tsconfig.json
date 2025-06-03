@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
