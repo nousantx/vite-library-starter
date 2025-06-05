@@ -5,8 +5,8 @@ const fileName = 'index'
 
 export default defineConfig({
   build: {
-    minify: true,
     target: 'es2017',
+    sourcemap: true,
     lib: {
       name,
       entry: 'src/index.ts',
